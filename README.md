@@ -6,6 +6,7 @@ Mobile-API for [Bottled](https://play.google.com/store/apps/details?id=com.bottl
 import bottled
 bottled = bottled.Bottled()
 bottled.login(email="", password="")
+```
 ```python
 # else
 ```
