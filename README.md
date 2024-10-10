@@ -1,15 +1,13 @@
-# bottled.py
+# bottled.js
 Mobile-API for [Bottled](https://play.google.com/store/apps/details?id=com.bottledapp.bottled) social network which is your safe place to make friends all over the world
 
 ## Example
-```python
-import bottled
-bottled = bottled.Bottled()
-bottled.login(email="", password="")
-```
-```python
-# else
-```
-```python
-bottled.login_with_access_token(access_token="")
+```JavaScript
+async function main() {
+	const { Bottled } = require("./bottled.js")
+	const bottled = new Bottled()
+	await bottled.login("email", "password")
+}
+
+main()
 ```
